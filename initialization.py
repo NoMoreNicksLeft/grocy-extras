@@ -14,6 +14,9 @@ config = {}
 def delete_all_quantity_units():
     r = requests.get(f"{config.get('base_uri')}/api/objects/quantity_units",
                      headers = headers)
+    for unit in r.json():
+        requests.delete(f"{config.get('base_uri')}/api/objects/quantity_units/{unit.get('id')}",
+                        headers = headers)
     return
 
 def add_all_quantity_units(option):
