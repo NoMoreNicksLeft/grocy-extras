@@ -1,0 +1,151 @@
+# count,name,description,filename,img,link
+
+########################
+#### United States #####
+########################
+
+# 9999999999,Amazon,,
+# 19643,Dollar General
+# 10586,Walmart
+# 9967,CVS
+# 8600,Walgreens
+# 8200,Family Dollar
+# 2719,Kroger
+# 2428,Aldi (USA)
+# 2271,Albertsons
+# 1956,Target
+# 1501,Five Below
+# 1373,Publix
+# 1120,Big Lots
+1055,Food Lion,test,https://i.imgur.com/N78IQ7o.png,https://www.foodlion.com/
+# 904,Safeway
+# 900,Save A Lot
+# 890,Costco
+# 763,IGA
+# 599,Sam's Club
+# 569,Trader Joe's
+# 525,Ollie's
+# 503,Piggly Wiggly
+# 501,Whole Foods
+# 480,Grocery Outlet
+# 449,Associated Food Stores
+# 420,H-E-B
+# 413,Sprouts Farmers Market
+# 406,Stop & Shop
+# 369,Winn-Dixie
+# 321,ShopRite
+# 286,Hy-Vee
+# 262,Harris Teeter
+# 259,Meijer
+# 253,Smart & Final
+# 229,BJ's
+# 211,Giant Eagle
+# 200,Weis
+# 200,CTown
+# 198,Ingles
+# 191,Vons
+# 190,Giant Company
+# 189,Hannaford
+# 184,Ralphs
+# 184,Brookshire's
+# 171,Stater Bros.
+# 165,Spec's
+# 165,Giant Food
+# 163,Smith's
+# 162,Natural Grocers
+# 160,Fresh Market
+# 159,Acme Markets
+# 154,Tops
+# 153,Food City
+# 151,Roundy's
+# 146,Food King
+# 138,WinCo Foods
+# 133,Shaw's
+# 131,Fareway
+# 130,Fred Meyer
+# 129,Raley's
+# 129,Price Chopper
+# 123,Fry's
+# 118,King Soopers
+# 115,Schnucks
+# 115,Harps
+# 109,Wegmans
+# 101,Food 4 Less
+# 94,Dillons
+# 90,Market Basket
+# 89,Super H
+# 85,Lowes Foods
+# 83,Family Fare
+# 71,Bravo
+# 70,Lucky
+# 70,Fresh Thyme Market
+# 67,El Súper
+# 66,Foodtown
+# 64,JayC
+# 63,Price Rite
+# 62,QFC
+# 55,Vallarta
+# 55,Bashas'
+# 52,United Supermarkets
+# 52,99 Ranch Market
+# 51,Patel Brothers
+# 50,Fiesta Mart
+# 47,Ruler
+# 38,City Market
+# 36,Sedano's
+# 36,Seafood City
+# 34,KJ's Market
+# 26,Pavilions
+# 24,Fresh Grocer
+# 22,GW Supermarket
+# 21,Star Market
+# 21,Mi Pueblo Food Center
+# 20,Harmons
+# 20,Foods Co.
+# 17,Reasor's
+# 17,Island Pacific
+# 15,Shun Fat
+# 15,Haggen
+# 15,El Ahorro
+# 14,Marukai
+# 12,Nijiya Market
+# 12,Mitsuwa Marketplace
+# 11,AJ's Fine Foods
+# 10,Nam Dae Mun Farmers Market
+# 10,Gerrity's
+# 10,D&W Fresh Market
+# 9,Teloloapan
+# 9,Pay Less
+# 8,Hornbacher's
+# 8,Fresh International
+# 6,Zion Market
+# 6,Hong Kong Supermarket
+# 5,Uwajimaya
+# 4,Kam Man Food
+# 4,Gerbes
+
+########################
+########## UK ##########
+########################
+
+# 3443,Tesco
+# 2500,Co-op Food
+# 1430,Sainsbury's
+# 1030,Iceland
+# 960,Aldi (UK)
+# 935,Lidl (UK)
+# 852,Marks & Spencer
+# 603,Asda
+# 542,Morrisons
+# 344,Waitrose
+# 340,Farmfoods
+# 290,Heron Foods
+# 26,Booths
+# 15,Oseyo
+# 5,Proudfoot
+
+
+
+
+
+

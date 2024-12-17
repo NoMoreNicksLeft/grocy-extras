@@ -1,0 +1,241 @@
+[
+    {
+        "singular": "Bag",
+        "plural": "Bags",
+        "description": "Plastic or mylar. Sometimes resealable."
+    },
+    {
+        "singular": "Bottle",
+        "plural": "bottles",
+        "description": "Plastic or glass. Foodstuffs or other. Caps not always re-sealable some beverages (wine) use corks."
+    },
+    {
+        "singular": "Box",
+        "plural": "Boxes",
+        "description": "Paper or cardboard. Occasionally with inner lining."
+    },
+    {
+        "singular": "Can",
+        "plural": "Cans",
+        "description": "Steel but sometimes aluminum."
+    },
+    {
+        "singular": "Carton (beverage)",
+        "plural": "cartons",
+        "description": "Cardboard (waxed). Mostly only milk."
+    },
+    {
+        "singular": "Count",
+        "plural": "count",
+        "description": "Individual items. Eggs etc."
+    },
+    {
+        "singular": "Cup (container)",
+        "plural": "cups",
+        "description": "Plastic. Single serving foodstuffs: yogurt snacks candies etc. Rarely with re-sealable lids."
+    },
+    {
+        "singular": "jar",
+        "plural": "jars",
+        "description": "Plastic or glass. Usually threaded lids. Foodstuffs occasionally other products."
+    },
+    {
+        "singular": "Jug",
+        "plural": "jugs",
+        "description": "Plastic. Mostly only milk."
+    },
+    {
+        "singular": "Tray (meat)",
+        "plural": "trays",
+        "description": "Styrofoam. Usually meat occasionally other foodstuffs. Sealed in plastic wrap."
+    },
+    {
+        "singular": "Tub",
+        "plural": "Tubs",
+        "description": "Plastic. Various shapes. Snap-type lids."
+    },
+    {
+        "singular": "Gram",
+        "plural": "grams",
+        "description": "Metric unit of weight.",
+        "conversions": [
+            { "Kilo": 0.001 },
+            { "Ounce": 0.0353 },
+            { "Pound": 0.0022 }
+        ]
+    },
+    {
+        "singular": "Kilo",
+        "plural": "kilos",
+        "description": "Metric unit of weight.",
+        "conversions": [
+            { "Gram": 1000 },
+            { "Ounce": 35.2739 },
+            { "Pound": 2.2046 }
+        ]
+    },
+    {
+        "singular": "milliliter",
+        "plural": "milliliters",
+        "description": "Metric unit of volume, liquid or gas.",
+        "conversions": [
+            { "Liter": 0.001 },
+            { "Floz": 0.0338 },
+            { "Cup (measure)": 0.0042 },
+            { "Pint": 0.0021 },
+            { "Quart": 0.0011 },
+            { "Gallon": 0.0003 }
+        ]
+    },
+    {
+        "singular": "Liter",
+        "plural": "liters",
+        "description": "Metric unit of volume, liquid or gas.",
+        "conversions": [
+            { "milliliter": 1000 },
+            { "Floz": 33.814 },
+            { "Cup (measure)": 4.2268 },
+            { "Pint": 2.1134 },
+            { "Quart": 1.0566 },
+            { "Gallon": 0.2641 }
+        ]
+    },
+    {
+        "singular": "cm",
+        "plural": "cm",
+        "description": "Metric unit of length.",
+        "conversions": [
+            { "Meter": 0.01 },
+            { "Inch": 0.3937 },
+            { "Foot": 0.0328 },
+            { "Yard": 0.0109 }
+        ]
+    },
+    {
+        "singular": "Meter",
+        "plural": "meters",
+        "description": "Metric unit of length.",
+        "conversions": [
+            { "cm": 100 },
+            { "Inch": 39.3701 },
+            { "Foot": 3.2808 },
+            { "Yard": 1.0936 }
+        ]
+    },
+    {
+        "singular": "Ounce",
+        "plural": "Ounces",
+        "description": "Standard unit of weight.",
+        "conversions": [
+            { "Pound": 0.0625 },
+            { "Gram": 28.3495 },
+            { "Kilo": 0.0283 }
+        ]
+    },
+    {
+        "singular": "Pound",
+        "plural": "pounds",
+        "description": "Standard unit of weight.",
+        "conversions": [
+            { "Ounce": 16 },
+            { "Gram": 0.4535 },
+            { "Kilo": 453.5924 }
+        ]
+    },
+    {
+        "singular": "Floz",
+        "plural": "floz",
+        "description": "Standard unit of volume, liquid.",
+        "conversions": [
+            { "milliliter": 29.5735 },
+            { "Liter": 0.0296 },
+            { "Cup (measure)": 0.125 },
+            { "Pint": 0.0625 },
+            { "Quart": 0.0313 },
+            { "Gallon": 0.0078 }
+        ]
+    },
+    {
+        "singular": "Cup (measure)",
+        "plural": "cups",
+        "description":"Standard unit of volume, liquid.",
+        "conversions": [
+            { "milliliter": 236.5882 },
+            { "Liter": 0.2366 },
+            { "Floz": 8 },
+            { "Pint": 0.5 },
+            { "Quart": 0.25 },
+            { "Gallon": 0.0625 }
+        ]
+    },
+    {
+        "singular": "Pint",
+        "plural": "pints",
+        "description": "Standard unit of volume, liquid.",
+        "conversions": [
+            { "milliliter": 473.1765 },
+            { "Liter": 0.4732 },
+            { "Floz": 16 },
+            { "Cup (measure)": 2 },
+            { "Quart": 0.5 },
+            { "Gallon": 0.125 }
+        ]
+    },
+    {
+        "singular": "Quart",
+        "plural": "quarts",
+        "description": "Standard unit of volume, liquid.",
+        "conversions": [
+            { "milliliter": 946.353 },
+            { "Liter": 0.9464 },
+            { "Floz": 32 },
+            { "Cup (measure)": 4 },
+            { "Pint": 2 },
+            { "Gallon": 0.25 }
+        ]
+    },
+    {
+        "singular": "Gallon",
+        "plural": "gallons",
+        "description": "Standard unit of volume, liquid.",
+        "conversions": [
+            { "Quart": 4 },
+            { "Pint": 8 },
+            { "Cup (measure)": 16 },
+            { "Floz": 128 }
+        ]
+    },
+    {
+        "singular": "Inch",
+        "plural": "Inches",
+        "description": "Standard unit of length.",
+        "conversions": [
+            { "Foot": 0.0833 },
+            { "Yard": 0.0278 },
+            { "Meter": 0.0254 },
+            { "cm": 2.54 }
+        ]
+    },
+    {
+        "singular": "Foot",
+        "plural": "feet",
+        "description": "Standard unit of length.",
+        "conversions": [
+            { "Inch": 12 },
+            { "Yard": 0.3333 },
+            { "Meter": 0.3048 },
+            { "cm": 30.48 }
+        ]
+    },
+    {
+        "singular": "Yard",
+        "plural": "yards",
+        "description": "Standard unit of length.",
+        "conversions": [
+            { "Inch": 36 },
+            { "Foot": 3 },
+            { "Meter": 0.9144 },
+            { "cm": 91.44 }
+        ]
+    }
+]

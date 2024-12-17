@@ -1,0 +1,106 @@
+[
+    {
+        "singular": "Bag",
+        "plural": "Bags",
+        "description": "Plastic or mylar. Sometimes resealable."
+    },
+    {
+        "singular": "Bottle",
+        "plural": "bottles",
+        "description": "Plastic or glass. Foodstuffs or other. Caps not always re-sealable some beverages (wine) use corks."
+    },
+    {
+        "singular": "Box",
+        "plural": "Boxes",
+        "description": "Paper or cardboard. Occasionally with inner lining."
+    },
+    {
+        "singular": "Can",
+        "plural": "Cans",
+        "description": "Steel but sometimes aluminum."
+    },
+    {
+        "singular": "Carton (beverage)",
+        "plural": "cartons",
+        "description": "Cardboard (waxed). Mostly only milk."
+    },
+    {
+        "singular": "Count",
+        "plural": "count",
+        "description": "Individual items. Eggs etc."
+    },
+    {
+        "singular": "Cup (container)",
+        "plural": "cups",
+        "description": "Plastic. Single serving foodstuffs: yogurt snacks candies etc. Rarely with re-sealable lids."
+    },
+    {
+        "singular": "jar",
+        "plural": "jars",
+        "description": "Plastic or glass. Usually threaded lids. Foodstuffs occasionally other products."
+    },
+    {
+        "singular": "Jug",
+        "plural": "jugs",
+        "description": "Plastic. Mostly only milk."
+    },
+    {
+        "singular": "Tray (meat)",
+        "plural": "trays",
+        "description": "Styrofoam. Usually meat occasionally other foodstuffs. Sealed in plastic wrap."
+    },
+    {
+        "singular": "Tub",
+        "plural": "Tubs",
+        "description": "Plastic. Various shapes. Snap-type lids."
+    },
+    {
+        "singular": "Gram",
+        "plural": "grams",
+        "description": "Metric unit of weight.",
+        "conversions": [
+            { "Kilo": 0.001 }
+        ]
+    },
+    {
+        "singular": "Kilo",
+        "plural": "kilos",
+        "description": "Metric unit of weight.",
+        "conversions": [
+            { "Gram": 1000 }
+        ]
+    },
+    {
+        "singular": "milliliter",
+        "plural": "milliliters",
+        "description": "Metric unit of volume, liquid or gas.",
+        "conversions": [
+            { "Liter": 0.001 }
+        ]
+    },
+    {
+        "singular": "Liter",
+        "plural": "liters",
+        "description": "Metric unit of volume, liquid or gas.",
+        "conversions": [
+            { "milliliter": 1000 }
+        ]
+    },
+    {
+        "singular": "cm",
+        "plural": "cm",
+        "description": "Metric unit of length.",
+        "conversions": [
+            { "Meter": 0.01 }
+        ]
+    },
+    {
+        "singular": "Meter",
+        "plural": "meters",
+        "description": "Metric unit of length.",
+        "conversions": [
+            { "cm": 100 }
+        ]
+    }
+]
+
