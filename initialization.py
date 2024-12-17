@@ -34,12 +34,26 @@ def add_all_quantity_units(option):
     # Add the units first, can't do conversions here because both units need to
     # exist for that to succeed.
     for unit in units:
-        print(add_quantity_unit(unit['singular'], unit['plural'], unit['description']))
+        unit_id = add_quantity_unit(unit['singular'], unit['plural'], unit['description'])
+
+        for i, un in enumerate(units):
+            if un.get('singular') == unit['singular']:
+                units[i]['id'] = unit_id
+            if un.get('conversions'):
+                for j, conversion in enumerate(units[i]['conversions']):
+                    if conversion.get('name') == unit['singular']:
+                        units[i]['conversions'][j]['id'] = unit_id
+
+    print(units)
 
     # Now do the conversions.
-    # for unit in units:
-    #     for conversion in unit['conversions']:
-    #         print('f')
+    for unit in units:
+        if unit.get('conversions'):
+            for conversion in unit['conversions']:
+                r = requests.post(f"{config.get('base_uri')}/api/objects/quantity_unit_conversions",
+                                  headers = headers,
+                                  json = {'to_qu_id': conversion.get('id'), 'factor': conversion.get('ratio'), 'from_qu_id': unit.get('id')})
+                print(r.json())
     
     return
 
