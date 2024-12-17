@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import json
+import initialization as init
 
 ################################################################################
 #################################### Prelim ####################################
@@ -33,15 +34,14 @@ print(first_prompt)
 if not Path("config.json").is_file():
     uri = input(config_prompt)
     key = input(config_prompt2)
-    config = {'base_uri': uri, 'api_key': key}
+    init.config = {'base_uri': uri, 'api_key': key}
+    init.headers['GROCY-API-KEY'] = key
     with open('config.json', 'w', encoding='utf-8') as f:
         json.dump({'base_uri': uri, 'api_key': key}, f, ensure_ascii=False, indent=4)
 else:
     with open('config.json', 'r') as config_file:
-        config = json.load(config_file)
-        
-import initialization as init
-
+        init.config = json.load(config_file)
+        init.headers['GROCY-API-KEY'] = init.config['api_key']
 
 ################################################################################
 ################################ Quantity Units ################################

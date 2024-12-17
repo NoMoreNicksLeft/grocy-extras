@@ -2,16 +2,18 @@ import sys
 import json
 import requests
 
-headers = { 'GROCY-API-KEY' : config['api_key'], 
+headers = { 'GROCY-API-KEY' : 'empty', 
             'accept': 'application/json',
             'Content-Type': 'application/json' }
+config = {}
 
 ################################################################################
 ################################## Functions ###################################
 ################################################################################
 
 def delete_all_quantity_units():
-    r = requests.get(config['base_uri'] + '/api/objects/quantity_units', )
+    r = requests.get(f"{config.get('base_uri')}/api/objects/quantity_units",
+                     headers = headers)
     return
 
 def add_all_quantity_units(option):
@@ -39,7 +41,7 @@ def add_all_quantity_units(option):
     return
 
 def add_quantity_unit(singular, plural, description):
-    r = requests.post(config['base_uri'] + '/api/objects/quantity_units', 
+    r = requests.post(f"{config.get('base_uri')}/api/objects/quantity_units",
                       headers = headers,
                       json = {'name': singular, 'name_plural': plural, 'active': '1', 'description': description})
 
