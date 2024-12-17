@@ -59,7 +59,7 @@
         "plural": "grams",
         "description": "Metric unit of weight.",
         "conversions": [
-            { "Kilo": 0.001 }
+            { "name": "Kilo", "ratio": 0.001 }
         ]
     },
     {
@@ -67,7 +67,7 @@
         "plural": "kilos",
         "description": "Metric unit of weight.",
         "conversions": [
-            { "Gram": 1000 }
+            { "name": "Gram", "ratio": 1000 }
         ]
     },
     {
@@ -75,7 +75,7 @@
         "plural": "milliliters",
         "description": "Metric unit of volume, liquid or gas.",
         "conversions": [
-            { "Liter": 0.001 }
+            { "name": "Liter", "ratio": 0.001 }
         ]
     },
     {
@@ -83,7 +83,7 @@
         "plural": "liters",
         "description": "Metric unit of volume, liquid or gas.",
         "conversions": [
-            { "milliliter": 1000 }
+            { "name": "milliliter", "ratio": 1000 }
         ]
     },
     {
@@ -91,7 +91,7 @@
         "plural": "cm",
         "description": "Metric unit of length.",
         "conversions": [
-            { "Meter": 0.01 }
+            { "name": "Meter", "ratio": 0.01 }
         ]
     },
     {
@@ -99,7 +99,7 @@
         "plural": "meters",
         "description": "Metric unit of length.",
         "conversions": [
-            { "cm": 100 }
+            { "name": "cm", "ratio": 100 }
         ]
     }
 ]
