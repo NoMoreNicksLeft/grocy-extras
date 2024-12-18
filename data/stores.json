@@ -1,0 +1,827 @@
+[
+    {
+        "country": "United States",
+        "stores": [
+            {
+                "n": 9999999999,
+                "name": "Amazon",
+                "logo": "amazon.png",
+                "uri": "https://www.amazon.com"
+            },
+            {
+                "n": 19643,
+                "name": "Dollar General",
+                "logo": "dollar_general.png",
+                "uri": "https://www.dollargeneral.com"
+            },
+            {
+                "n": 15288,
+                "name": "Dollar Tree",
+                "logo": "dollar_tree.png",
+                "uri": "https://www.dollartree.com"
+            },
+            {
+                "n": 10586,
+                "name": "Walmart",
+                "logo": "walmart.png",
+                "uri": "https://www.walmart.com/"
+            },
+            {
+                "n": 9967,
+                "name": "CVS",
+                "logo": "cvs.png",
+                "uri": "https://www.cvs.com"
+            },
+            {
+                "n": 8600,
+                "name": "Walgreens",
+                "logo": "walgreens.png",
+                "uri": "https://www.walgreens.com"
+            },
+            {
+                "n": 8200,
+                "name": "Family Dollar",
+                "logo": "family_dollar.png",
+                "uri": "https://www.familydollar.com"
+            },
+            {
+                "n": 2719,
+                "name": "Kroger",
+                "logo": "",
+                "uri": "https://www.kroger.com"
+            },
+            {
+                "n": 2428,
+                "name": "Aldi (USA)",
+                "logo": "aldi_sud.png",
+                "uri": "https://www.aldi.us"
+            },
+            {
+                "n": 2271,
+                "name": "Albertsons",
+                "logo": "",
+                "uri": "https://www.albertsons.com"
+            },
+            {
+                "n": 1956,
+                "name": "Target",
+                "logo": "target.png",
+                "uri": "https://www.target.com"
+            },
+            {
+                "n": 1501,
+                "name": "Five Below",
+                "logo": "",
+                "uri": "https://www.fivebelow.com"
+            },
+            {
+                "n": 1373,
+                "name": "Publix",
+                "logo": "",
+                "uri": "https://www.publix.com"
+            },
+            {
+                "n": 1120,
+                "name": "Big Lots",
+                "logo": "big_lots.png",
+                "uri": "https://www.biglots.com"
+            },
+            {
+                "n": 1055,
+                "name": "Food Lion,test",
+                "logo": "food_lion.png",
+                "uri": "https://www.foodlion.com/"
+            },
+            {
+                "n": 904,
+                "name": "Safeway",
+                "logo": "",
+                "uri": "https://www.safeway.com"
+            },
+            {
+                "n": 900,
+                "name": "Save A Lot",
+                "logo": "",
+                "uri": "https://savealot.com"
+            },
+            {
+                "n": 890,
+                "name": "Costco",
+                "logo": "costco",
+                "uri": "https://www.costco.com"
+            },
+            {
+                "n": 763,
+                "name": "IGA",
+                "logo": "",
+                "uri": "https://www.iga.com"
+            },
+            {
+                "n": 599,
+                "name": "Sam's Club",
+                "logo": "sams_club.png",
+                "uri": "https://www.samsclub.com"
+            },
+            {
+                "n": 569,
+                "name": "Trader Joe's",
+                "logo": "",
+                "uri": "https://www.traderjoes.com"
+            },
+            {
+                "n": 525,
+                "name": "Ollie's",
+                "logo": "ollies",
+                "uri": "https://www.ollies.us"
+            },
+            {
+                "n": 503,
+                "name": "Piggly Wiggly",
+                "logo": "",
+                "uri": "https://www.pigglywigglystores.com"
+            },
+            {
+                "n": 501,
+                "name": "Whole Foods",
+                "logo": "",
+                "uri": "https://www.wholefoodsmarket.com"
+            },
+            {
+                "n": 480,
+                "name": "Grocery Outlet",
+                "logo": "",
+                "uri": "https://www.groceryoutlet.com"
+            },
+            {
+                "n": 449,
+                "name": "Associated Food Stores",
+                "logo": "",
+                "uri": "https://www.afstores.com"
+            },
+            {
+                "n": 420,
+                "name": "H-E-B",
+                "logo": "h-e-b.png",
+                "uri": "https://www.heb.com"
+            },
+            {
+                "n": 413,
+                "name": "Sprouts Farmers Market",
+                "logo": "sprouts.png",
+                "uri": "https://www.sprouts.com"
+            },
+            {
+                "n": 406,
+                "name": "Stop & Shop",
+                "logo": "",
+                "uri": "https://stopandshop.com/"
+            },
+            {
+                "n": 369,
+                "name": "Winn-Dixie",
+                "logo": "",
+                "uri": "https://www.winndixie.com"
+            },
+            {
+                "n": 321,
+                "name": "ShopRite",
+                "logo": "",
+                "uri": "https://www.shoprite.com"
+            },
+            {
+                "n": 286,
+                "name": "Hy-Vee",
+                "logo": "",
+                "uri": "https://www.hy-vee.com"
+            },
+            {
+                "n": 262,
+                "name": "Harris Teeter",
+                "logo": "",
+                "uri": "https://www.harristeeter.com"
+            },
+            {
+                "n": 259,
+                "name": "Meijer",
+                "logo": "",
+                "uri": "https://www.meijer.com"
+            },
+            {
+                "n": 253,
+                "name": "Smart & Final",
+                "logo": "",
+                "uri": "https://www.smartandfinal.com"
+            },
+            {
+                "n": 229,
+                "name": "BJ's",
+                "logo": "",
+                "uri": "https://www.bjs.com"
+            },
+            {
+                "n": 211,
+                "name": "Giant Eagle",
+                "logo": "",
+                "uri": "https://gianteagle.com"
+            },
+            {
+                "n": 200,
+                "name": "Weis",
+                "logo": "",
+                "uri": "https://www.weismarkets.com"
+            },
+            {
+                "n": 200,
+                "name": "CTown",
+                "logo": "",
+                "uri": "https://www.ctownsupermarkets.com"
+            },
+            {
+                "n": 198,
+                "name": "Ingles",
+                "logo": "",
+                "uri": "https://www.ingles-markets.com"
+            },
+            {
+                "n": 191,
+                "name": "Vons",
+                "logo": "",
+                "uri": "https://www.vons.com"
+            },
+            {
+                "n": 190,
+                "name": "Giant Company",
+                "logo": "",
+                "uri": "https://giantfoodstores.com"
+            },
+            {
+                "n": 189,
+                "name": "Hannaford",
+                "logo": "",
+                "uri": "https://www.hannaford.com"
+            },
+            {
+                "n": 184,
+                "name": "Ralphs",
+                "logo": "",
+                "uri": "https://www.ralphs.com"
+            },
+            {
+                "n": 184,
+                "name": "Brookshire's",
+                "logo": "",
+                "uri": "https://www.brookshires.com"
+            },
+            {
+                "n": 171,
+                "name": "Stater Bros.",
+                "logo": "",
+                "uri": "https://www.staterbros.com"
+            },
+            {
+                "n": 165,
+                "name": "Spec's",
+                "logo": "",
+                "uri": "https://specsonline.com"
+            },
+            {
+                "n": 165,
+                "name": "Giant Food",
+                "logo": "",
+                "uri": "https://giantfood.com"
+            },
+            {
+                "n": 163,
+                "name": "Smith's",
+                "logo": "",
+                "uri": "https://www.smithsfoodanddrug.com"
+            },
+            {
+                "n": 162,
+                "name": "Natural Grocers",
+                "logo": "natural_grocers.png",
+                "uri": "https://www.naturalgrocers.com"
+            },
+            {
+                "n": 160,
+                "name": "Fresh Market",
+                "logo": "",
+                "uri": "https://www.thefreshmarket.com"
+            },
+            {
+                "n": 159,
+                "name": "Acme Markets",
+                "logo": "",
+                "uri": "https://www.acmemarkets.com"
+            },
+            {
+                "n": 154,
+                "name": "Tops",
+                "logo": "",
+                "uri": "https://www.topsmarkets.com"
+            },
+            {
+                "n": 153,
+                "name": "Food City",
+                "logo": "",
+                "uri": "https://www.foodcity.com"
+            },
+            {
+                "n": 146,
+                "name": "Food King",
+                "logo": "food_king.png",
+                "uri": "https://www.foodkingcostplus.com"
+            },
+            {
+                "n": 138,
+                "name": "WinCo Foods",
+                "logo": "",
+                "uri": "https://www.wincofoods.com"
+            },
+            {
+                "n": 133,
+                "name": "Shaw's",
+                "logo": "",
+                "uri": "https://www.shaws.com"
+            },
+            {
+                "n": 131,
+                "name": "Fareway",
+                "logo": "",
+                "uri": "https://www.fareway.com"
+            },
+            {
+                "n": 130,
+                "name": "Fred Meyer",
+                "logo": "",
+                "uri": "https://www.fredmeyer.com"
+            },
+            {
+                "n": 129,
+                "name": "Raley's",
+                "logo": "",
+                "uri": "https://www.raleys.com"
+            },
+            {
+                "n": 129,
+                "name": "Price Chopper",
+                "logo": "",
+                "uri": "https://www.pricechopper.com"
+            },
+            {
+                "n": 123,
+                "name": "Fry's",
+                "logo": "",
+                "uri": "https://www.frysfood.com"
+            },
+            {
+                "n": 118,
+                "name": "King Soopers",
+                "logo": "",
+                "uri": "https://www.kingsoopers.com"
+            },
+            {
+                "n": 115,
+                "name": "Schnucks",
+                "logo": "",
+                "uri": "https://schnucks.com"
+            },
+            {
+                "n": 115,
+                "name": "Harps",
+                "logo": "",
+                "uri": "https://www.harpsfood.com"
+            },
+            {
+                "n": 109,
+                "name": "Wegmans",
+                "logo": "",
+                "uri": "https://www.wegmans.com"
+            },
+            {
+                "n": 101,
+                "name": "Food 4 Less",
+                "logo": "",
+                "uri": "https://www.food4less.com"
+            },
+            {
+                "n": 94,
+                "name": "Dillons",
+                "logo": "",
+                "uri": "https://www.dillons.com"
+            },
+            {
+                "n": 90,
+                "name": "Market Basket",
+                "logo": "",
+                "uri": "https://www.shopmarketbasket.com"
+            },
+            {
+                "n": 89,
+                "name": "Super H",
+                "logo": "",
+                "uri": "https://www.hmart.com"
+            },
+            {
+                "n": 85,
+                "name": "Lowes Foods",
+                "logo": "lowes_market.png",
+                "uri": "https://www.lowesfoods.com/"
+            },
+            {
+                "n": 83,
+                "name": "Family Fare",
+                "logo": "",
+                "uri": "https://www.shopfamilyfare.com"
+            },
+            {
+                "n": 71,
+                "name": "Bravo",
+                "logo": "",
+                "uri": "https://www.bravosupermarkets.com"
+            },
+            {
+                "n": 70,
+                "name": "Lucky",
+                "logo": "",
+                "uri": "https://luckysupermarkets.com"
+            },
+            {
+                "n": 70,
+                "name": "Fresh Thyme Market",
+                "logo": "",
+                "uri": "https://www.freshthyme.com"
+            },
+            {
+                "n": 67,
+                "name": "El Súper",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 66,
+                "name": "Foodtown",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 64,
+                "name": "JayC",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 63,
+                "name": "Price Rite",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 62,
+                "name": "QFC",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 55,
+                "name": "Vallarta",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 55,
+                "name": "Bashas'",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 52,
+                "name": "United Supermarkets",
+                "logo": "united_supermarkets.png",
+                "uri": "https://www.unitedsupermarkets.com"
+            },
+            {
+                "n": 52,
+                "name": "99 Ranch Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 51,
+                "name": "Patel Brothers",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 50,
+                "name": "Fiesta Mart",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 47,
+                "name": "Ruler",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 38,
+                "name": "City Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 36,
+                "name": "Sedano's",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 36,
+                "name": "Seafood City",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 34,
+                "name": "KJ's Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 26,
+                "name": "Pavilions",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 24,
+                "name": "Fresh Grocer",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 22,
+                "name": "GW Supermarket",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 21,
+                "name": "Star Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 21,
+                "name": "Mi Pueblo Food Center",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 20,
+                "name": "Harmons",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 20,
+                "name": "Foods Co.",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 17,
+                "name": "Reasor's",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 17,
+                "name": "Island Pacific",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 15,
+                "name": "Shun Fat",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 15,
+                "name": "Haggen",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 15,
+                "name": "El Ahorro",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 14,
+                "name": "Marukai",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 12,
+                "name": "Nijiya Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 12,
+                "name": "Mitsuwa Marketplace",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 11,
+                "name": "AJ's Fine Foods",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 10,
+                "name": "Nam Dae Mun Farmers Market",
+                "logo": "nam_dae_mun.png",
+                "uri": "https://www.ndmmarket.com/"
+            },
+            {
+                "n": 10,
+                "name": "Gerrity's",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 10,
+                "name": "D&W Fresh Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 9,
+                "name": "Teloloapan",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 9,
+                "name": "Pay Less",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 8,
+                "name": "Hornbacher's",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 8,
+                "name": "Fresh International",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 6,
+                "name": "Zion Market",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 6,
+                "name": "Hong Kong Supermarket",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 5,
+                "name": "Uwajimaya",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 4,
+                "name": "Kam Man Food",
+                "logo": "",
+                "uri": ""
+            },
+            {
+                "n": 4,
+                "name": "Gerbes",
+                "logo": "",
+                "uri": ""
+            }
+        ]
+    },
+    {
+        "country": "Canada",
+        "stores": []
+    },
+    {
+        "country": "United Kingdom",
+        "stores": [
+            {
+                "n": 9999999999,
+                "name": "Amazon",
+                "logo": "amazon.png",
+                "uri": "https://www.amazon.co.uk"
+            },
+            {
+                "n": 3443,
+                "name": "Tesco",
+                "logo": "tesco.png",
+                "uri": "https://www.tesco.com/groceries/"
+            },
+            {
+                "n": 2500,
+                "name": "Co-op Food",
+                "logo": "co_op_food.png",
+                "uri": "https://www.coop.co.uk"
+            },
+            {
+                "n": 1430,
+                "name": "Sainsbury's",
+                "logo": "sainsburys.png",
+                "uri": "https://www.sainsburys.co.uk"
+            },
+            {
+                "n": 1030,
+                "name": "Iceland",
+                "logo": "iceland.png",
+                "uri": "https://www.iceland.co.uk"
+            },
+            {
+                "n": 960,
+                "name": "Aldi (UK)",
+                "logo": "aldi_sud.png",
+                "uri": "https://www.aldi.co.uk"
+            },
+            {
+                "n": 935,
+                "name": "Lidl (UK)",
+                "logo": "lidl.png",
+                "uri": "https://www.lidl.co.uk"
+            },
+            {
+                "n": 852,
+                "name": "Marks & Spencer",
+                "logo": "marks_and_spencer.png",
+                "uri": "https://www.marksandspencer.com"
+            },
+            {
+                "n": 603,
+                "name": "Asda",
+                "logo": "asda.png",
+                "uri": "https://www.asda.com"
+            },
+            {
+                "n": 542,
+                "name": "Morrisons",
+                "logo": "morrisons.png",
+                "uri": "https://www.morrisons.com/"
+            },
+            {
+                "n": 344,
+                "name": "Waitrose",
+                "logo": "waitrose.png",
+                "uri": "https://www.waitrose.com"
+            },
+            {
+                "n": 340,
+                "name": "Farmfoods",
+                "logo": "farmfoods.png",
+                "uri": "https://www.farmfoods.co.uk"
+            },
+            {
+                "n": 290,
+                "name": "Heron Foods",
+                "logo": "heron_foods.png",
+                "uri": "https://heronfoods.com"
+            },
+            {
+                "n": 26,
+                "name": "Booths",
+                "logo": "booths.png",
+                "uri": "https://www.booths.co.uk"
+            },
+            {
+                "n": 15,
+                "name": "Oseyo",
+                "logo": "oseyo.png",
+                "uri": "https://oseyo.co.uk"
+            },
+            {
+                "n": 5,
+                "name": "Proudfoot",
+                "logo": "proudfoot.png",
+                "uri": "https://proudfootsupermarkets.com"
+            }
+        ]
+    }
+]
+
