@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from pathlib import Path
-import sys
+import sys, shutil
 import json, argparse
 import initialization as init
 
@@ -15,6 +15,7 @@ def main():
                                     epilog = 'Just run without arguments or switches for typical use.',
                                     formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=27))
     parser.add_argument('--delete-all-qty-units', help = 'deletes all existing quantity units', action = 'store_true', dest = 'delete_all_qty')
+    parser.add_argument('--delete-all-stores', help = 'deletes all existing stores', action = 'store_true', dest = 'delete_all_stores')
     args = parser.parse_args()
 
     if args.delete_all_qty:
@@ -62,12 +63,57 @@ x) Exit wizard
     while choice not in ["1", "2", "x"]:
         choice = input(qty_unit_options)
         if choice not in ["1", "2", "x"]: print("Option unavailable")
+        elif choice == 'x': sys.exit()
 
     init.add_all_quantity_units(choice)
 
 ################################################################################
 ############################## Locations (Stores) ##############################
 ################################################################################
+
+    third_prompt = """
+grocy keeps track of where inventory items were purchased. You will need to add
+those supermarkets which you shop at, either regularly or occasionally. 
+Independent or non-chain supermarkets should be entered manually through the
+grocy web interface. Which country are you in?
+"""
+
+    with open('data/stores.json') as f:
+        init.stores = json.load(f)
+
+    country_options = [f"{i+1}) {c.get('country')}" for i, c in enumerate(init.stores)]
+    country_options.append('x) Exit wizard')
+    country_options = "\n".join(country_options) + "\n"
+    country_answers = [str(i+1) for i, c in enumerate(init.stores)]
+    country_answers.append('x')
+
+    print(third_prompt)
+
+    choice1 = ""
+
+    while choice1 not in country_answers:
+        choice1 = input(country_options)
+        if choice1 not in country_answers: print("Option unavailable")
+        elif choice1 == 'x': sys.exit()
+
+    fourth_prompt = """
+Please choose any of the following stores. Separate multiple selections with 
+commas. Which stores do you shop at?
+"""
+
+    store_options = format_store_options(int(choice1)-1)
+    store_answers = ""
+
+    print(fourth_prompt)
+
+    choice2 = ""
+
+    while choice2 not in store_answers:
+        choice2 = input(store_options)
+        if choice2 not in store_answers: print("Option unavailable")
+        elif choice2 == 'x': sys.exit()
+
+    # init.add_all_stores(choice1, choice2)
 
 ################################################################################
 ################################## Functions ###################################
@@ -102,6 +148,27 @@ def load_config():
         with open('config.json', 'r') as config_file:
             init.config = json.load(config_file)
             init.headers['GROCY-API-KEY'] = init.config['api_key']
+
+def format_store_options(country):
+    terminal = shutil.get_terminal_size()
+
+    lines = terminal.lines - 5
+    options = [""] * lines
+    total_stores = len(init.stores[country]['stores'])
+    for i, s in enumerate(init.stores[country]['stores']):
+        # print(str(i+1))
+        # print(s.get('name'))
+        options[i % lines] += "{:>2}) {}  ".format(str(i), s.get('name'))
+        if i % lines == 5:
+            wide = max(options, key=len)
+            for j, o in enumerate(options):
+                options[j] = f"{options[j]}:<{wide}"
+
+    options = "\n".join(options) + "\n"
+
+    print(options)
+
+    return
 
 ################################################################################
 ################################################################################
