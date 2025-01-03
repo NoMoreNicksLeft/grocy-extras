@@ -20,11 +20,11 @@ PAGE='https://api.flipp.com/flyerkit/v4.0/publications/cvspharmacy?access_token=
 CURL=`which curl`
 JQ=`which jq`
 
-QUERY1=".[] | select(.validity_text==\"Sneak Peek\") | .pdf_url"
-QUERY2=".[] | select(.validity_text==\"Sneak Peek\") | .valid_from | .[0:10]"
+DATE=`date -v+Sunday +"%Y-%m-%d"`
+
+QUERY1=".[] | select(.valid_from | startswith(\"$DATE\")) | .pdf_url"
 
 JSON=`$CURL -s $PAGE$STORE`
 PDF=`echo $JSON | $JQ -r "$QUERY1"`
-DATE=`echo $JSON | $JQ -r "$QUERY2"`
 
 $CURL -s $PDF > "${FILE_LOCATION}CVS Pharmacy Circular - $DATE.pdf"
