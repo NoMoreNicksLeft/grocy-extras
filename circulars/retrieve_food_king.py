@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import json
+from pathlib import Path
 import datetime, requests, re
 
 ################################################################################
@@ -14,7 +14,7 @@ file_location = "./pdfs/"
 # doesn't do any error handling.
 
 # Notes: This script requires a store code. No good way of getting the correct
-# code for your location, short of digging it out of the cookes in dev tools. 
+# code for your location, short of digging it out of the cookies in dev tools. 
 # Probably unnecessary, I can't imagine they're running more than the one flyer
 # in any given week. Can change it (above) if you want. Adjust the file_location
 # (above) to any relative or absolute path.
@@ -39,11 +39,14 @@ r = requests.get(f"https://www.foodkingcostplus.com/circulars/Page/1/Base/1/{wed
                  cookies=cookies)
 
 regex = re.compile("view_pdf_ad\('(https.+?pdf)'\)")
-url = re.search(regex, r.text).group(1)
-pdf = f"{file_location}Food Kind Circular - {wednesday.strftime('%Y-%m-%d')}.pdf"
 
-with requests.get(url, stream=True) as r:
-    r.raise_for_status()
-    with open(pdf, 'wb') as f:
-        for chunk in r.iter_content(chunk_size=8192):
-            f.write(chunk)
+if re.search(regex, r.text).group(1):
+    url = re.search(regex, r.text).group(1)
+    pdf = f"{file_location}Food King Circular - {wednesday.strftime('%Y-%m-%d')}.pdf"
+
+    if not Path(pdf).is_file():
+        with requests.get(url, stream=True) as r:
+            r.raise_for_status()
+            with open(pdf, 'wb') as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    f.write(chunk)
