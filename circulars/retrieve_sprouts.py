@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from PIL import Image
-import datetime, requests, tempfile
+import requests, tempfile
 
 ################################################################################
 
