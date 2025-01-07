@@ -1,3 +1,5 @@
 requests
 alive-progress
 Pillow
+pwinput
+python-jose
