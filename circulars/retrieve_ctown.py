@@ -79,6 +79,7 @@ if args.list_stores:
     prev = ''
     for e in filtered:
         if e.get('meta').get('id') == '17176938076': e['meta']['id'] = 'U41_415' # This one is fucked up in their data.
+        if e.get('meta').get('id') == 'U41-030': e['meta']['id'] = 'PU41_030' # This one was double-screwed up.
         e['meta']['id'] = e['meta']['id'].replace('-', '_', 1) # Some of these use dashes, supposed to be underscores.
         a = e.get('address')
         if prev != a.get('region'): print(states.abbreviation_to_name[a.get('region')]+':')
@@ -97,9 +98,7 @@ r = requests.get('https://dam.flippenterprise.net/flyerkit/publications/ctown',
                          'locale': 'en',
                          'access_token': '30bc560130542d12ce1817299c5a19bc'})
 
-print(r.json())
 filtered = [j for j in r.json() if j.get('name') == 'Weekly Ad']
-
 
 for c in filtered:
     url = c.get('pdf_url')
